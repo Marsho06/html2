@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-image: url("img/redfish.png") no-repeat;
+	backgrond-size: cover;
+	
+	}
+	
+	
+#box{
+	width: 700px;
+	margin: auto;
+	
+}
+	
+header{ width:100px;
+	heigh:100px;
+}
+	
+header h1 {
+	font-size: 100px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-weight: 300;
+	font-style: italic;
+	text-align: center;
+	color:#1D0C0C;
+	display: inline;
+	
+	
+}
+nav{
+	width: 100%;
+	text-align: center;
+	
+}
+	
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	
+}
+nav li{
+	display: inline;
+	
+}
+
+
+footer{
+	text-align: center;
+	clear: both;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	
+}
+	
+	
+	
+	
+	
+
