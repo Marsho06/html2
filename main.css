@@ -2,24 +2,27 @@
 /* CSS Document */
 
 body{
-	background-image: url("img/redfish.png") no-repeat;
+	background-image: url("img/redfish.png");
+	background-repeat: no-repeat;
 	backgrond-size: cover;
+	
 	
 	}
 	
 	
 #box{
-	width: 700px;
-	margin: auto;
+	width: 1000px;
+	margin:0 auto;
 	
 }
 	
-header{ width:100px;
+header{ width: 800px;
 	heigh:100px;
+	text-align: center;
 }
 	
 header h1 {
-	font-size: 100px;
+	font-size: 50px;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	font-weight: 300;
 	font-style: italic;
@@ -39,6 +42,7 @@ nav ul{
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
+	font-size: 50px;
 	
 }
 nav li{
@@ -53,8 +57,20 @@ footer{
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
 	
 }
+.left{
+	width: 50px;
+	float: left;
+	margin-top: 25px;
+	margin-bottom: 25px;
+
 	
-	
+}
+.right{
+	width: 300px;
+	float: right;
+	margin-left:100px;
+	font-size: 18px;
+}
 	
 	
 	
